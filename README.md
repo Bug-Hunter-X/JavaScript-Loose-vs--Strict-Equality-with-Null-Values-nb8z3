@@ -1,0 +1,3 @@
+This repository demonstrates a common JavaScript error related to loose (==) and strict (===) equality comparisons when handling null values.  The `bug.js` file showcases the unexpected behavior that can occur when using loose equality, while `bugSolution.js` provides the corrected version using strict equality for accurate null checks.  Understanding this difference is crucial for preventing subtle bugs in JavaScript code.
+
+The example functions show how using `==` can lead to unintended consequences when comparing null with numbers.  The strict equality operator (`===`) correctly distinguishes between null and other values, ensuring the desired behavior. 
